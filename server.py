@@ -282,14 +282,15 @@ def record():
     print(prediction_speaker)
     print(prediction_speech)
     spectrum = visualize("Sound recordings/test/test.wav")
-    spectrum = 'static/assets/images/result'+str(variables.counter)+'.jpg'
+    spectrum = 'static/assets/images/tree.png'
+
     variables.counter += 1
 
-    # mfcc_fig = mfcc("Sound recordings/test/test.wav", features_speech)
-    # mfcc_fig = 'static/assets/images/mfcc'+str(variables.counter)+'.jpg'
-    tonnetz_fig = tonnetz_feature(
+    circles_tree =  'static/assets/images/tree_path.svg'
+    dist_fig = tonnetz_feature(
         "Sound recordings/test/test.wav", features_speech)
-    tonnetz_fig = 'static/assets/images/tonnetz'+str(variables.counter)+'.jpg'
+    dist_fig = 'static/assets/images/tree_dist.svg'
+    # 'static/assets/images/tonnetz'+str(variables.counter)+'.jpg'
 #
     dot_data = tree.export_graphviz(model_speeker, out_file=None,
                                     filled=True, rounded=True,
@@ -328,6 +329,8 @@ def record():
 
     filename = 'static/assets/images/tree.png'
     graph.write_png(filename)
+
+
 # #
 #     from dtreeviz.trees import dtreeviz # remember to load the package
 
@@ -338,7 +341,7 @@ def record():
 
 #     viz
     # return render_template("index.html", words = guess["transcription"],prediction_text=' The speaker is:{}'.format(prediction_speaker),speech_text=' The speech is:{}'.format(prediction_speech))
-    return render_template("index.html", prediction_text='{}'.format(prediction_speaker), speech_text='{}'.format(prediction_speech), words='{}'.format(text), img=spectrum, tonnetz_fig=tonnetz_fig)
+    return render_template("index.html", prediction_text='{}'.format(prediction_speaker), speech_text='{}'.format(prediction_speech), words='{}'.format(text), img=spectrum, tonnetz_fig=dist_fig, img2=circles_tree)
 
 
 if __name__ == '__main__':
