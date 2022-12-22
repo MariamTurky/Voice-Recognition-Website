@@ -1,0 +1,58 @@
+
+digraph G {
+    splines=line;
+    nodesep=0.09;
+    ranksep=.05;
+    rankdir=LR;
+    margin=0.0;
+    
+    node [margin="0.03" penwidth="0.5" width=.1, height=.1];
+    edge [arrowsize=.4 penwidth="0.3"]
+
+    node34 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<font face="Helvetica" color="#444443" point-size="12">mfccs@19.46</font>>]
+	node18 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<font face="Helvetica" color="#444443" point-size="12">tonnetz@6.26</font>>]
+	node0 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<font face="Helvetica" color="#444443" point-size="12">contrast@-12.89</font>>]
+    node34 -> leaf40 [penwidth=1.2 color="#D67C03" label=<>]
+	node18 -> node34 [penwidth=1.2 color="#D67C03" label=<>]
+	node0 -> node18 [penwidth=1.2 color="#D67C03" label=<>]
+    leaf40 [margin="0" shape=box penwidth=".5" color="#D67C03" style="dashed" label=<<table border="0" CELLBORDER="0">
+        
+        <tr>
+                <td><img src="C:\Users\dell\AppData\Local\Temp/leaf40_11224.svg"/></td>
+        </tr>
+        </table>>]
+
+    
+            subgraph cluster_legend {
+                style=invis;
+                legend [penwidth="0" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
+                
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td border="0" cellspacing="0" cellpadding="0"><img src="C:\Users\dell\AppData\Local\Temp/legend_11224.svg"/></td>
+            </tr>
+        </table>
+        
+                >]
+            }
+            
+    
+            subgraph cluster_instance {
+                style=invis;
+                X_y [penwidth="0.3" margin="0" shape=box margin="0.03" width=.1, height=.1 label=<
+                
+                <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">contrast</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">tonnetz</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">mfccs</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
+                </tr>
+                <tr>
+                    <td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">-6.98</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">48.09</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#D67C03" point-size="11">21.17</font></td><td cellpadding="1" align="right" bgcolor="white"><font face="Helvetica" color="#444443" point-size="11">...</font></td>
+                </tr>
+                </table>
+                
+                >]
+            }
+            leaf40 -> X_y [dir=back; penwidth="1.2" color="#D67C03" label=<<font face="Helvetica" color="#444443" point-size="11"> &#160;Prediction<br/> Bassant</font>>]
+            
+}
+    
