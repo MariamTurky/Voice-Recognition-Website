@@ -31,7 +31,7 @@ In this web application you can
 >    ![](static/assets/images/tree_path_long.svg)
 > 2. Models (User and Sentence)
 >    ![](static/assets/images/tree.png)
-### Project full 
+### Project full demo
 
 ![](static/assets/images/2022-12-22 (4).png)
 
