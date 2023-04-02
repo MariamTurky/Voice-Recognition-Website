@@ -31,9 +31,12 @@ In this web application you can
 >    ![](static/assets/images/tree_path_long.svg)
 > 2. Models (User and Sentence)
 >    ![](static/assets/images/tree.png)
-### Project full Demo
+### Project full Demo 
 >    ![](static/assets/images/2022-12-22%20(4).png)
-
+>    ![](static/assets/images/2022-12-22%20(5).png)
+>    ![](static/assets/images/2022-12-22%20(1).png)
+>    ![](static/assets/images/2022-12-22%20(2).png)
+>    ![](static/assets/images/2022-12-22.png)
 ### Project Structure
 
 The Web Application is built using:
