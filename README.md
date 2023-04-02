@@ -100,7 +100,7 @@ First Semester - Biomedical Digital Signal Processing project created by:
 
 | Team Members' Names                                  | Section | B.N. |
 | ---------------------------------------------------- | :-----: | :--: |
-| [Ereny Eleya ](https://)                             |    1    |  18  |
+| [Ereny Eleya ](https://github.com/ErenyEleya)        |    1    |  18  |
 | [Bassent Medhat](https://github.com/bassantmedhat)   |    1    |  21  |
 | [Mariam Turky](https://github.com/MariamTurky)       |    2    |  30  |
 | [Mayer Fayez](https://)                              |    2    |  50  |
