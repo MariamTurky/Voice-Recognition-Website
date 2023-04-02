@@ -73,7 +73,6 @@ Download it from www.python.org/downloads/
 2. Install the following packages
    - numpy
    - flask
-   - flask_cors
    - Librosa
    - pickle
    - scipy
