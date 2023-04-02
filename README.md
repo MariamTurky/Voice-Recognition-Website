@@ -64,13 +64,7 @@ main
 
 ### Run the Project
 
-1. Install Python3 in your computer
-
-```
-Download it from www.python.org/downloads/
-```
-
-2. Install the following packages
+1. Install the following packages
    - numpy
    - flask
    - Librosa
@@ -85,13 +79,13 @@ Download it from www.python.org/downloads/
 pip install -r requirments.txt
 ```
 
-3. Start Server by Running
+2. Start Server by Running
 
 ```
 python app.py
 ```
 
-4. Visit http://127.0.0.1:8000
+3. Visit http://127.0.0.1:8000
 
 ### Team
 
