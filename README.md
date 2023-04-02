@@ -32,8 +32,7 @@ In this web application you can
 > 2. Models (User and Sentence)
 >    ![](static/assets/images/tree.png)
 ### Project full Demo
-
->    ![](static/assets/images/2022-12-22 (4).png)
+>    ![](static/assets/images/tree.png)
 
 ### Project Structure
 
