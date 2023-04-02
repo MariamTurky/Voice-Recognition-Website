@@ -9,7 +9,7 @@
 - [Project full Demo](#project-full-demo)
 - [Project Structure](#project-structure)
 - [How to Run The Project](#run-the-project)
-- [Team]()
+- [Team](#Team)
 
 ### Introduction
 
@@ -31,9 +31,13 @@ In this web application you can
 >    ![](static/assets/images/tree_path_long.svg)
 > 2. Models (User and Sentence)
 >    ![](static/assets/images/tree.png)
-<br></br>
+
+
+
+
 ### Project full Demo 
-<br></br>
+
+
 >    ![](static/assets/images/2022-12-22%20(4).png)
 <br></br>
 >    ![](static/assets/images/2022-12-22%20(5).png)
