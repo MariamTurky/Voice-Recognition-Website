@@ -33,7 +33,7 @@ In this web application you can
 >    ![](static/assets/images/tree.png)
 ### Project full demo
 
-![](static/assets/images/2022-12-22 (4).png)
+>    ![](static/assets/images/2022-12-22 (4).png)
 
 ### Project Structure
 
